@@ -1,3 +1,5 @@
+mkdir -p classes
+
 javac -d "classes" "main/TicTacToeGame.java"
 
 javac -d "classes" -classpath "classes" "main/Window.java"
